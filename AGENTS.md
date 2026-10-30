@@ -34,6 +34,18 @@ For small fixes, use a proportionate, lightweight plan.
 
 Do not begin major architectural changes without approval.
 
+### Specification Files
+For non-trivial features, use:
+- `specs/<feature>/spec.md` for requirements.
+- `specs/<feature>/plan.md` for architecture and implementation decisions.
+- `specs/<feature>/tasks.md` for task breakdown and verification.
+
+Use `specs/_template/` as the starting point.
+Follow `.specify/memory/constitution.md`.
+
+Do not treat a draft specification as approved.
+Resolve blocking questions before implementation.
+
 ## 4. Implementation Standards
 
 - Keep changes focused and minimal.
