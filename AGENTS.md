@@ -74,6 +74,16 @@ Never:
 
 If tests cannot run, explain why.
 
+Follow `docs/testing-strategy.md` and
+`docs/testing-checklist.md`.
+
+Derive test cases from the feature's acceptance criteria.
+
+Do not consider implementation complete until relevant
+tests have been executed and results reported.
+
+Do not modify or disable CI checks without approval.
+
 ## 6. Security Guardrails
 
 - Never hardcode secrets or credentials.
