@@ -144,6 +144,16 @@ For parallel work:
 Agents must not assume another agent's work is complete
 without verification.
 
+Follow `docs/worktree-guide.md` for parallel development.
+
+Before starting parallel implementation:
+- Define task ownership and shared interfaces.
+- Assign each agent a dedicated worktree.
+- Identify shared files and integration dependencies.
+- Ensure development services and test resources are isolated.
+
+Do not merge another agent's changes without review.
+
 ## 10. Definition of Done
 
 A task is complete only when:
